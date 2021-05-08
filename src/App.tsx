@@ -1,4 +1,5 @@
 import React from "react"
+import { BecomeAHost } from "./components/BecomeAHost"
 import { CovidBanner } from "./components/CovidBanner"
 import { ExploreNearby } from "./components/ExploreNearby"
 import { Hero } from "./components/Hero"
@@ -11,6 +12,7 @@ function App() {
             <Hero />
             <ExploreNearby />
             <LiveAnywhere />
+            <BecomeAHost />
         </div>
     )
 }
