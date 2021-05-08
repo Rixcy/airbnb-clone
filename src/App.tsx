@@ -1,5 +1,6 @@
 import React from "react"
 import { BecomeAHost } from "./components/BecomeAHost"
+import { CookieBanner } from "./components/CookieBanner"
 import { CovidBanner } from "./components/CovidBanner"
 import { DiscoverExperiences } from "./components/DiscoverExperiences"
 import { ExploreNearby } from "./components/ExploreNearby"
@@ -17,6 +18,7 @@ function App() {
             <BecomeAHost />
             <DiscoverExperiences />
             <Footer />
+            <CookieBanner />
         </div>
     )
 }
