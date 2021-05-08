@@ -11,8 +11,10 @@
         "**/*": "prettier --write --ignore-unknown"
     },
     "dependencies": {
+        "classnames": "^2.3.1",
         "react": "^17.0.0",
-        "react-dom": "^17.0.0"
+        "react-dom": "^17.0.0",
+        "zustand": "^3.5.1"
     },
     "devDependencies": {
         "@types/react": "^17.0.0",
