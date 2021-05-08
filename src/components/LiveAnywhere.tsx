@@ -8,11 +8,20 @@ type Card = {
 const cards: Card[] = [
     {
         title: "Outdoor getaways",
-        image: "https://placedog.net/200/150/b?random",
+        image: "https://source.unsplash.com/FKJgBUDoVC0/500x300",
     },
-    { title: "Unique stays", image: "https://placedog.net/200/150/b?random" },
-    { title: "Entire homes", image: "https://placedog.net/200/150/b?random" },
-    { title: "Pets allowed", image: "https://placedog.net/200/150/b?random" },
+    {
+        title: "Unique stays",
+        image: "https://source.unsplash.com/9GoVKTE2wng/500x300",
+    },
+    {
+        title: "Entire homes",
+        image: "https://source.unsplash.com/_TPTXZd9mOo/500x300",
+    },
+    {
+        title: "Pets allowed",
+        image: "https://source.unsplash.com/ieEv01cucy0/500x300",
+    },
 ]
 
 export const LiveAnywhere: React.VFC = () => {
