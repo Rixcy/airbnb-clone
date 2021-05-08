@@ -6,38 +6,38 @@ const locations: Location[] = [
     {
         name: "Windermere",
         duration: "3-hour drive",
-        image: "../../public/windermere.jpg",
+        image: "/windermere.jpg",
     },
     {
         name: "Whitby",
         duration: "2-hour drive",
-        image: "../../public/whitby.jpg",
+        image: "/whitby.jpg",
     },
     {
         name: "Newquay",
         duration: "6.5-hour drive",
-        image: "../../public/newquay.jpg",
+        image: "/newquay.jpg",
     },
-    { name: "York", duration: "1-hour drive", image: "../../public/york.jpg" },
+    { name: "York", duration: "1-hour drive", image: "/york.jpg" },
     {
         name: "Blackpool",
         duration: "2-hour drive",
-        image: "../../public/blackpool.jpg",
+        image: "/blackpool.jpg",
     },
     {
         name: "Sheffield",
         duration: "45-minute drive",
-        image: "../../public/sheffield.jpg",
+        image: "/sheffield.jpg",
     },
     {
         name: "Harrogate",
         duration: "1-hour drive",
-        image: "../../public/harrogate.jpg",
+        image: "/harrogate.jpg",
     },
     {
         name: "Manchester",
         duration: "1.5-hour drive",
-        image: "../../public/manchester.jpg",
+        image: "/manchester.jpg",
     },
 ]
 
