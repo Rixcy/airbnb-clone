@@ -26,7 +26,7 @@ const experiences: Card[] = [
 
 export const DiscoverExperiences: React.VFC = () => {
     return (
-        <div className="discover-experiences mt-16 mb-6 mx-16">
+        <div className="discover-experiences mt-16 mb-16 mx-16">
             <h2 className="font-bold text-3xl mb-2">Discover Experiences</h2>
             <h3 className="text-2xl mb-4">
                 Unique activities with local experts - in person or online.

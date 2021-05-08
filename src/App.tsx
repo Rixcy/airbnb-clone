@@ -3,6 +3,7 @@ import { BecomeAHost } from "./components/BecomeAHost"
 import { CovidBanner } from "./components/CovidBanner"
 import { DiscoverExperiences } from "./components/DiscoverExperiences"
 import { ExploreNearby } from "./components/ExploreNearby"
+import { Footer } from "./components/Footer"
 import { Hero } from "./components/Hero"
 import { LiveAnywhere } from "./components/LiveAnywhere"
 
@@ -15,6 +16,7 @@ function App() {
             <LiveAnywhere />
             <BecomeAHost />
             <DiscoverExperiences />
+            <Footer />
         </div>
     )
 }
