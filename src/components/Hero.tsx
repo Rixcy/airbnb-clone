@@ -28,7 +28,7 @@ export const Hero: React.VFC = () => {
                     </picture>
                 </div>
 
-                <div className="max-w-md relative flex flex-col justify-center min-h-[500px] pt-[146px] px-[80px] pb-[40px]">
+                <div className="max-w-md relative flex flex-col justify-center min-h-[500px] pt-[146px] px-16 pb-[40px]">
                     <h1
                         className="text-6xl line mb-2 font-bold whitespace-pre-line"
                         style={{ maxWidth: "300px" }}
@@ -40,7 +40,7 @@ export const Hero: React.VFC = () => {
                     </h2>
                     <button
                         type="button"
-                        className="px-2 bg-black text-white py-2 rounded max-w-max"
+                        className="px-4 bg-black text-white py-2 rounded-lg max-w-max"
                     >
                         Get inspired
                     </button>
