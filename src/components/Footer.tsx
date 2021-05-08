@@ -6,6 +6,7 @@ import {
     FaTwitter,
 } from "react-icons/fa"
 import { BiGlobe } from "react-icons/bi"
+import { Container } from "./Container"
 
 type LinkGroup = {
     title: string
@@ -65,8 +66,10 @@ const linkGroups: LinkGroup[] = [
 export const Footer: React.VFC = () => {
     return (
         <div className="border-t border-[#DDDDDD] bg-[#F7F7F7] px-16 pt-16">
-            <FooterLinks linkGroups={linkGroups} />
-            <FooterInfo />
+            <Container>
+                <FooterLinks linkGroups={linkGroups} />
+                <FooterInfo />
+            </Container>
         </div>
     )
 }

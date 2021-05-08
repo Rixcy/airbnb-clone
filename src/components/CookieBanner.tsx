@@ -8,8 +8,6 @@ export const CookieBanner: React.VFC = () => {
         state.acceptedCookies,
     ])
 
-    console.log({ acceptedCookies })
-
     return acceptedCookies ? null : (
         <div
             className="cookie-banner mx-8 md:mx-16 mb-6 p-6 flex-col lg:flex-row fixed z-100 bottom-0 bg-white rounded-xl"

@@ -1,4 +1,5 @@
 import React from "react"
+import { Container } from "./Container"
 
 export const Hero: React.VFC = () => {
     return (
@@ -28,23 +29,25 @@ export const Hero: React.VFC = () => {
                     </picture>
                 </div>
 
-                <div className="max-w-md relative flex flex-col justify-center min-h-[500px] pt-[146px] px-8 md:px-16 pb-8">
-                    <h1
-                        className="text-6xl line mb-2 font-bold whitespace-pre-line"
-                        style={{ maxWidth: "300px" }}
-                    >
-                        The Greatest Outdoors
-                    </h1>
-                    <h2 className="mb-2 text-xl">
-                        Wishlists curated by Airbnb.
-                    </h2>
-                    <button
-                        type="button"
-                        className="px-4 bg-black text-white py-2 rounded-lg max-w-max"
-                    >
-                        Get inspired
-                    </button>
-                </div>
+                <Container>
+                    <div className="max-w-md relative flex flex-col justify-center min-h-[500px] pt-[146px] px-8 md:px-16 pb-8">
+                        <h1
+                            className="text-6xl line mb-2 font-bold whitespace-pre-line"
+                            style={{ maxWidth: "300px" }}
+                        >
+                            The Greatest Outdoors
+                        </h1>
+                        <h2 className="mb-2 text-xl">
+                            Wishlists curated by Airbnb.
+                        </h2>
+                        <button
+                            type="button"
+                            className="px-4 bg-black text-white py-2 rounded-lg max-w-max"
+                        >
+                            Get inspired
+                        </button>
+                    </div>
+                </Container>
             </div>
         </div>
     )

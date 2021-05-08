@@ -1,4 +1,5 @@
 import React from "react"
+import { Container } from "./Container"
 
 type Location = { name: string; duration: string; image: string }
 
@@ -43,14 +44,14 @@ const locations: Location[] = [
 
 export const ExploreNearby: React.VFC = () => {
     return (
-        <div className="px-8 md:px-16 mt-16 mb-6">
+        <Container className="px-8 md:px-16 mt-16 mb-6">
             <h2 className="text-3xl pb-4 font-bold">Explore nearby</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {locations.map((location) => (
                     <ExploreNearbyCard key={location.name} {...location} />
                 ))}
             </div>
-        </div>
+        </Container>
     )
 }
 
