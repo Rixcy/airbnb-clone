@@ -28,7 +28,7 @@ export const Hero: React.VFC = () => {
                     </picture>
                 </div>
 
-                <div className="max-w-md relative flex flex-col justify-center min-h-[500px] pt-[146px] px-16 pb-[40px]">
+                <div className="max-w-md relative flex flex-col justify-center min-h-[500px] pt-[146px] px-8 md:px-16 pb-8">
                     <h1
                         className="text-6xl line mb-2 font-bold whitespace-pre-line"
                         style={{ maxWidth: "300px" }}

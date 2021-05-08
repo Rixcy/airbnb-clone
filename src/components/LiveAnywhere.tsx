@@ -17,9 +17,9 @@ const cards: Card[] = [
 
 export const LiveAnywhere: React.VFC = () => {
     return (
-        <div className="live-anywhere px-16 mt-16 mb-6">
+        <div className="live-anywhere px-8 md:px-16 mt-16 mb-6">
             <h1 className="text-3xl font-bold mb-4">Live anywhere</h1>
-            <div className="grid grid-flow-col auto-cols-auto gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {cards.map((card) => (
                     <LiveAnywhereCard
                         title={card.title}

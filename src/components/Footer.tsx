@@ -75,7 +75,7 @@ const FooterLinks: React.VFC<{ linkGroups: LinkGroup[] }> = (props) => {
     const { linkGroups } = props
 
     return (
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {linkGroups.map((linkGroup) => (
                 <div className="flex flex-col" key={linkGroup.title}>
                     <h5 className="font-bold text-xs mb-4">
@@ -98,19 +98,25 @@ const FooterLinks: React.VFC<{ linkGroups: LinkGroup[] }> = (props) => {
 
 const FooterInfo: React.VFC = () => {
     return (
-        <div className="flex flex-row border-t mt-8 py-8 justify-between text-sm">
-            <div className="flex flex-row">
-                <p>© 2021 Airbnb, Inc.</p>
-                <span className="w-[16px] text-center">·</span>
-                <a href="#">Privacy</a>
-                <span className="w-[16px] text-center">·</span>
-                <a href="#">Terms</a>
-                <span className="w-[16px] text-center">·</span>
-                <a href="#">Sitemap</a>
-                <span className="w-[16px] text-center">·</span>
-                <a href="#">UK Modern Slavery Act</a>
-                <span className="w-[16px] text-center">·</span>
-                <a href="#">Company Details</a>
+        <div className="flex flex-col md:flex-row border-t mt-8 py-8 justify-between text-sm">
+            <div className="flex flex-col md:flex-row mb-2 md:mb-0">
+                <p className="mb-2 md:mb-0 whitespace-pre w-full md:w-auto">
+                    © 2021 Airbnb, Inc.
+                </p>
+                <div>
+                    <span className="hidden md:inline w-[16px] mx-2 text-center">
+                        ·
+                    </span>
+                    <a href="#">Privacy</a>
+                    <span className="w-[16px] mx-2 text-center">·</span>
+                    <a href="#">Terms</a>
+                    <span className="w-[16px] mx-2 text-center">·</span>
+                    <a href="#">Sitemap</a>
+                    <span className="w-[16px] mx-2 text-center">·</span>
+                    <a href="#">UK Modern Slavery Act</a>
+                    <span className="w-[16px] mx-2 text-center">·</span>
+                    <a href="#">Company Details</a>
+                </div>
             </div>
             <div className="flex flex-row">
                 <div className="mr-8 flex flex-row">
