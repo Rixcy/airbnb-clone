@@ -2,6 +2,7 @@ import React from "react"
 import { CovidBanner } from "./components/CovidBanner"
 import { ExploreNearby } from "./components/ExploreNearby"
 import { Hero } from "./components/Hero"
+import { LiveAnywhere } from "./components/LiveAnywhere"
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <CovidBanner />
             <Hero />
             <ExploreNearby />
+            <LiveAnywhere />
         </div>
     )
 }
